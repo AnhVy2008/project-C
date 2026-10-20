@@ -1,0 +1,180 @@
+Ngon ngu lap trinh C do ai phat trien?
+Dennis Ritchie
+James Gosling
+Bjarne Stroustrup
+Guido van Rossum
+A
+Ham nao la diem bat dau thuc thi cua mot chuong trinh C?
+start()
+begin()
+main()
+run()
+C
+Ham nao dung de sinh so ngau nhien trong C?
+random()
+rand()
+rnd()
+randomize()
+B
+Thu vien nao khai bao ham printf va scanf?
+<stdio.h>
+<stdlib.h>
+<string.h>
+<math.h>
+A
+Kieu du lieu nao dung de luu so nguyen?
+float
+char
+int
+double
+C
+Kieu du lieu nao dung de luu so thuc co do chinh xac kep?
+int
+double
+char
+long
+B
+Dinh dang nao dung de in mot so nguyen bang printf?
+%f
+%c
+%s
+%d
+D
+Dinh dang nao dung de nhap mot so thuc float bang scanf?
+%f
+%d
+%c
+%s
+A
+Trong C, chi so cua phan tu dau tien trong mang la bao nhieu?
+1
+-1
+Tuy y
+0
+D
+Khai bao nao sau day dung de tao mang 5 so nguyen?
+int a[5];
+int a(5);
+array a[5];
+int[5] a;
+A
+Ket qua cua bieu thuc 7 / 2 voi hai so nguyen la bao nhieu?
+3.5
+4
+3
+2
+C
+Ket qua cua bieu thuc 7 % 3 la bao nhieu?
+1
+2
+0
+3
+A
+Toan tu nao dung de so sanh hai gia tri co bang nhau hay khong?
+=
+:=
+===
+==
+D
+Toan tu && trong C co y nghia gi?
+Phep hoac logic
+Phep phu dinh
+Phep va logic
+Phep gan
+C
+Cau lenh nao dung de re nhanh theo dieu kien?
+for
+if
+while
+return
+B
+Vong lap for (int i = 0; i < 5; i++) se lap bao nhieu lan?
+5
+4
+6
+Vo han
+A
+Cau lenh nao dung de thoat som khoi vong lap?
+break
+continue
+skip
+next
+A
+Cau lenh continue trong vong lap co tac dung gi?
+Thoat khoi chuong trinh
+Thoat khoi vong lap
+Quay lai dau chuong trinh
+Bo qua phan con lai va sang lan lap ke tiep
+D
+Vong lap nao luon thuc hien than vong lap it nhat mot lan?
+for
+while
+do...while
+if
+C
+Tu khoa nao dung de tra ve gia tri tu mot ham?
+back
+break
+return
+output
+C
+Ham co kieu tra ve void co dac diem gi?
+Khong tra ve gia tri
+Tra ve so nguyen
+Khong co tham so
+Chi duoc goi trong main
+A
+Trong C, chuoi ky tu duoc ket thuc bang ky tu nao?
+'\n'
+'\0'
+' '
+'.'
+B
+Ham nao dung de tinh do dai cua chuoi?
+strcpy
+strlen
+strcmp
+strcat
+B
+Ham nao dung de so sanh hai chuoi?
+strcpy
+strlen
+strcat
+strcmp
+D
+Trong scanf("%d", &x), toan tu & co y nghia gi?
+Phep va logic
+Lay dia chi cua bien x
+Lay gia tri cua bien x
+Phep nhan
+B
+Con tro (pointer) la bien dung de luu gi?
+Mot so nguyen
+Mot ky tu
+Mot chuoi
+Dia chi cua o nho
+D
+Khai bao nao dung de tao con tro tro toi kieu int?
+int p;
+int *p;
+int &p;
+pointer p;
+B
+Tu khoa nao dung de dinh nghia kieu cau truc trong C?
+struct
+class
+record
+object
+A
+Ham nao dung de mo file trong C?
+open()
+fileopen()
+readfile()
+fopen()
+D
+Che do "a" trong ham fopen co y nghia gi?
+Chi doc file
+Ghi de len noi dung cu
+Ghi them vao cuoi file
+Xoa file
+C
