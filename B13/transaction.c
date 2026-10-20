@@ -1,5 +1,13 @@
 #include "vending.h"
-
+/*
+- Hàm 1: kiemTraMenhGia
+- Người thực hiện: Anh Vy
+- File phụ trách: transaction.c
+- Mô tả: Kiểm tra tờ tiền khách đưa vào có thuộc danh sách mệnh giá hợp lệ
+         (1.000, 2.000, 5.000, 10.000, 20.000, 50.000, 100.000 đ) hay không.
+- Đầu vào: int tien - mệnh giá tờ tiền khách nhập
+- Đầu ra: 1 nếu mệnh giá hợp lệ, 0 nếu không hợp lệ
+*/
 int kiemTraMenhGia(int tien) {
     int menhGiaHopLe[] = {1000, 2000, 5000, 10000, 20000, 50000, 100000};
     int soMenhGia = sizeof(menhGiaHopLe) / sizeof(menhGiaHopLe[0]);
@@ -11,7 +19,18 @@ int kiemTraMenhGia(int tien) {
     }
     return 0; // Khong dung menh gia cho phep
 }
-
+/*
+- Hàm 2: thoiTienCoGioiHan
+- Người thực hiện: Anh Vy
+- File phụ trách: transaction.c
+- Mô tả: Tính và thối tiền thừa cho khách theo thuật toán tham lam (ưu tiên
+         mệnh giá cao trước) dựa trên số tờ còn trong kho. Nếu kho không đủ
+         tiền lẻ thì báo lỗi và không trừ kho; nếu đủ thì in danh sách các tờ
+         tiền thối và trừ số lượng tương ứng trong kho.
+- Đầu vào: int tienThua - số tiền cần thối lại
+           QuanLyTienThoi khoTien[] - mảng quản lý kho tiền thối (7 mệnh giá)
+- Đầu ra: 1 nếu thối tiền thành công (hoặc không cần thối), 0 nếu máy không đủ tiền lẻ
+*/
 int thoiTienCoGioiHan(int tienThua, QuanLyTienThoi khoTien[]) {
     // Neu khong can thoi tien
     if (tienThua == 0) {
@@ -57,7 +76,16 @@ int thoiTienCoGioiHan(int tienThua, QuanLyTienThoi khoTien[]) {
     return 1; // Thoi tien thanh cong
 }
 
-
+/*
+- Hàm 3: apDungMaGiamGia
+- Người thực hiện: Anh Vy
+- File phụ trách: transaction.c
+- Mô tả: Cho khách nhập mã giảm giá và tính giá sau giảm. Hỗ trợ mã GIAM10K
+         (giảm 10.000 đ) và GIAM20% (giảm 20%). Nhập '0' hoặc mã sai thì giữ
+         nguyên giá gốc.
+- Đầu vào: int giaGoc - giá gốc trước khi giảm
+- Đầu ra: Giá sau khi áp dụng mã giảm giá (không âm)
+*/
 int apDungMaGiamGia(int giaGoc) {
     char ma[20];
     printf("Nhap ma giam gia (neu khong co nhap '0'): ");
