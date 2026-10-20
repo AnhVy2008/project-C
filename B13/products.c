@@ -26,7 +26,7 @@ void hienThiSanPham(SanPham ds[], int n) {
 
 /**
  * Ham 2: capNhatKho
- * 
+ * Nguoi thuc hien: Thanh Hau
  * Mo ta: Tru so luong ton kho sau khi giao dich thanh cong. 
  *        Neu kho ve 0, in thong bao san pham vua het hang.
  * Dau vao: *sp (Con tro tro toi san pham mua), soLuongMua (So luong mua)
