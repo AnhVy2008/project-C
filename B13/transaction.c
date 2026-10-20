@@ -44,7 +44,7 @@ int thoiTienCoGioiHan(int tienThua, QuanLyTienThoi khoTien[]) {
     }
 
     int tienConLai = tienThua;
-    int soToThoi[7] = {0}; // Luu so loung tung loai to se thoi cho khach
+    int soToThoi[7] = {0}; // Luu so luong tung loai to se thoi cho khach
 
     // Thuat toan tham lam: Duyet tu menh gia cao xuong menh gia thap
     for (int i = 0; i < 7; i++) {
